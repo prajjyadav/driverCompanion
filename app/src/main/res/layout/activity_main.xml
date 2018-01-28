@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="myname.driver.MainActivity"
+    android:background="@drawable/driver"
+    >
+
+
+    <Button
+        android:id="@+id/show_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        android:layout_weight="1"
+        android:background="@color/grey_light"
+        android:text="Show My Location" />
+
+    <Button
+        android:id="@+id/driver_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Activate Driver's Mode"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/show_location"
+        android:layout_alignParentStart="true"
+        android:background="@color/grey_light"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
